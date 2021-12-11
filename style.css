@@ -1,0 +1,170 @@
+body {
+      background-color:grey;
+}
+
+container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.nav-wrapper {
+     display: flex;
+     justify-content: space-between;
+     padding: 38px;
+}
+
+.up-side {
+    display:flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+h1 {
+    color:black;
+    font-family:"Times New Roman", Times, serif;
+    background-color: deepskyblue;
+    border: 5px solid lime;
+    padding: 30px;
+}
+
+
+p {
+   color: white;
+   font-family:"Times New Roman", Times, serif;
+   background-color: deepskyblue;
+   border: 3px solid black;
+   
+}
+p2 {
+   color: black;
+   font-family:"Times New Roman", Times, serif;
+   background-color: deepskyblue;
+   border: 3px solid black;
+}
+
+h2 {
+    color: black;
+    font-family:"Times New Roman", Times, serif;
+    background-color: white;
+    border: 3px solid lime;
+    padding: 20px;
+     
+}
+
+img {
+	 border: 5px solid black;
+         width: 50%;
+         height: 50%;
+         margin-left: 100px;
+}
+
+table {
+       border-collapse: collapse;
+}
+
+table th { 
+    text-align: left; 
+    background-color: black;
+    color: yellow;
+    padding: 36px;
+    border: 3px solid red;
+    
+    }
+
+table td {
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+
+    }
+
+table tr:nth-child(odd) td {
+	background-color: lime;
+	}
+
+.grid{
+      display:grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas: none
+	". title title ."
+	". header header ."
+        ". sidebar content ."
+	". foster foster ."
+      grid-gap: 20px;
+	}
+.title {	
+      grid-area: title;
+      justify-self: center;
+      padding: 0;
+      width: 80%;
+      min-width: 80%;
+      height: 20%;
+      min-height: 20%;
+}
+
+.header {
+	grid-area: header;
+	background-color: white;
+	justify-self: center;
+	padding:0;
+	width: 40%;
+	mid-width: 40%;
+	height: 10%;
+	min-height: 10%;
+	text-align: left;
+}
+.sidebar {
+	grid-area: sidebar;
+	background-color: deepskyblue;
+	border: 3px solid black;
+}
+.content {
+	grid-area: sidebar;
+	background-color: white;
+	border: 3px solid black;
+}
+.footer {
+	grid-area: sidebar;
+	background-color: lime;
+	border: 3px solid black;
+	justify-self: center;	
+}
+.ul {
+	border: 3px solid black;
+}
+iframe { 
+	border: 5px solid black;
+	margin-left: 200px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
